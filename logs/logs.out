@@ -1,0 +1,80 @@
+{"level":"info","ts":1699209597.5916464,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209597.5918264,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.002688632}
+{"level":"info","ts":1699209598.5550063,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209598.5551758,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.002739758}
+{"level":"info","ts":1699209599.8541684,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209599.8542922,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.001784534}
+{"level":"error","ts":1699209611.8730237,"caller":"handler/handler.go:68","msg":"Cannot decode request body: EOF\n","stacktrace":"game/http/server/handler.New.SetState.func2\n\t/home/pasha/test/game/http/server/handler/handler.go:68\nnet/http.HandlerFunc.ServeHTTP\n\t/home/pasha/go/src/net/http/server.go:2136\nnet/http.(*ServeMux).ServeHTTP\n\t/home/pasha/go/src/net/http/server.go:2514\ngame/http/server.new.loggingMiddleware.func1.1\n\t/home/pasha/test/game/http/server/server.go:56\nnet/http.HandlerFunc.ServeHTTP\n\t/home/pasha/go/src/net/http/server.go:2136\nnet/http.serverHandler.ServeHTTP\n\t/home/pasha/go/src/net/http/server.go:2938\nnet/http.(*conn).serve\n\t/home/pasha/go/src/net/http/server.go:2009"}
+{"level":"info","ts":1699209611.8731177,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/setstate","duration":0.000134557}
+{"level":"error","ts":1699209618.0391977,"caller":"handler/handler.go:68","msg":"Cannot decode request body: EOF\n","stacktrace":"game/http/server/handler.New.SetState.func2\n\t/home/pasha/test/game/http/server/handler/handler.go:68\nnet/http.HandlerFunc.ServeHTTP\n\t/home/pasha/go/src/net/http/server.go:2136\nnet/http.(*ServeMux).ServeHTTP\n\t/home/pasha/go/src/net/http/server.go:2514\ngame/http/server.new.loggingMiddleware.func1.1\n\t/home/pasha/test/game/http/server/server.go:56\nnet/http.HandlerFunc.ServeHTTP\n\t/home/pasha/go/src/net/http/server.go:2136\nnet/http.serverHandler.ServeHTTP\n\t/home/pasha/go/src/net/http/server.go:2938\nnet/http.(*conn).serve\n\t/home/pasha/go/src/net/http/server.go:2009"}
+{"level":"info","ts":1699209618.039284,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/setstate","duration":0.000101304}
+{"level":"info","ts":1699209622.9410663,"caller":"server/server.go:60","msg":"HTTP request","method":"POST","path":"/setstate","duration":0.000534464}
+{"level":"info","ts":1699209634.2744327,"caller":"handler/handler.go:120","msg":"Reset request succesfully processed"}
+{"level":"info","ts":1699209634.2748299,"caller":"server/server.go:60","msg":"HTTP request","method":"POST","path":"/reset","duration":0.000495061}
+{"level":"error","ts":1699209668.0039222,"caller":"server/server.go:44","msg":"ListenAndServe","err":"http: Server closed","stacktrace":"game/http/server.Run.func1\n\t/home/pasha/test/game/http/server/server.go:44"}
+{"level":"info","ts":1699209767.9730673,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209767.973184,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.001042181}
+{"level":"info","ts":1699209769.8361127,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209769.8362474,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.002922965}
+{"level":"info","ts":1699209770.351513,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209770.3516767,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.001539589}
+{"level":"info","ts":1699209770.5525675,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209770.5526295,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000435531}
+{"level":"info","ts":1699209770.7494986,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209770.7496338,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000976106}
+{"level":"info","ts":1699209770.9248781,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209770.9249244,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000605633}
+{"level":"info","ts":1699209771.1216667,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209771.1217272,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000633204}
+{"level":"info","ts":1699209771.226548,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209771.2266219,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000397843}
+{"level":"info","ts":1699209771.3267636,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209771.3268096,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000492185}
+{"level":"info","ts":1699209771.5087442,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209771.508788,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000442236}
+{"level":"info","ts":1699209771.6280642,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209771.6281178,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000388029}
+{"level":"info","ts":1699209771.7202783,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209771.720335,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000402127}
+{"level":"info","ts":1699209771.7762911,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209771.7763395,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000505305}
+{"level":"info","ts":1699209772.5717707,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209772.5718265,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000498815}
+{"level":"info","ts":1699209772.6004982,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209772.6006744,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000792215}
+{"level":"info","ts":1699209772.6554015,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209772.6554499,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.00033672}
+{"level":"info","ts":1699209772.8731358,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209772.8731885,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000562575}
+{"level":"info","ts":1699209772.9787247,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209772.978775,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000687586}
+{"level":"info","ts":1699209773.055988,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209773.0560422,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000343193}
+{"level":"info","ts":1699209773.2291107,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209773.229291,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.001545281}
+{"level":"info","ts":1699209773.409218,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699209773.409329,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.00110228}
+{"level":"error","ts":1699209774.39662,"caller":"server/server.go:44","msg":"ListenAndServe","err":"http: Server closed","stacktrace":"game/http/server.Run.func1\n\t/home/pasha/Projects/game/http/server/server.go:44"}
+{"level":"info","ts":1699216073.902973,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699216073.9030585,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000865034}
+{"level":"info","ts":1699216074.408306,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699216074.4083562,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000989214}
+{"level":"info","ts":1699216074.779705,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699216074.7798119,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000904689}
+{"level":"info","ts":1699216075.1518002,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699216075.1519032,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000638038}
+{"level":"info","ts":1699216075.2699635,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699216075.2700188,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.00034423}
+{"level":"info","ts":1699216075.361113,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699216075.3611684,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.00065843}
+{"level":"info","ts":1699216075.5547628,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699216075.5548787,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.001191654}
+{"level":"info","ts":1699216075.7537286,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699216075.753848,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000584188}
+{"level":"info","ts":1699216075.9571292,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699216075.9571767,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.000308484}
+{"level":"info","ts":1699216076.1548042,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699216076.154853,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.00062824}
+{"level":"info","ts":1699216076.3387787,"caller":"handler/handler.go:59","msg":"NextState request processed succesfully"}
+{"level":"info","ts":1699216076.3389025,"caller":"server/server.go:60","msg":"HTTP request","method":"GET","path":"/nextstate","duration":0.001547478}
+{"level":"error","ts":1699216077.4139538,"caller":"server/server.go:44","msg":"ListenAndServe","err":"http: Server closed","stacktrace":"game/http/server.Run.func1\n\t/home/pasha/Projects/game/http/server/server.go:44"}

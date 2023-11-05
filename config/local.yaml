@@ -1,0 +1,11 @@
+env: "local"
+logs_path: "./logs/logs.out"
+states_path: "./states/state.cfg"
+http_server:
+  address: "localhost: 8081"
+  timeout: 4s
+  idle_timeout: 60s
+life_config:
+    height: 30
+    width: 30
+    fill: 50
