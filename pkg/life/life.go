@@ -5,9 +5,15 @@ import (
 	"math/rand"
 )
 
+const (
+	BrownSquare = "\xF0\x9F\x9F\xAB"
+	GreenSquare = "\xF0\x9F\x9F\xA9"
+)
+
 type World struct {
 	Height int
 	Wide   int
+	Fill   int
 	Cells  [][]bool
 }
 
@@ -16,10 +22,10 @@ var (
 	y_move = []int{0, 1, -1, 1, -1, 0, 1, -1}
 )
 
-func NewWorld(height, wide int) (*World, error) {
+func NewWorld(height, wide, fill int) (*World, error) {
 
-	if height <= 0 || wide <= 0 {
-		return nil, errors.New("height and width cannot be less then 0")
+	if height <= 0 || wide <= 0 || fill <= 0 {
+		return nil, errors.New("height, width and fill cannot be less then 0")
 	}
 
 	cells := make([][]bool, height)
@@ -30,6 +36,7 @@ func NewWorld(height, wide int) (*World, error) {
 	return &World{
 		Height: height,
 		Wide:   wide,
+		Fill:   fill,
 		Cells:  cells,
 	}, nil
 }
@@ -67,6 +74,19 @@ func NextState(oldWorld, newWorld *World) {
 			newWorld.Cells[i][j] = oldWorld.Next(i, j)
 		}
 	}
+
+	f := float64(0)
+	for i := 0; i < oldWorld.Height; i++ {
+		for j := 0; j < oldWorld.Wide; j++ {
+			if newWorld.Cells[i][j] {
+				f += 1.0
+			}
+		}
+	}
+
+	f /= float64(oldWorld.Height) * float64(oldWorld.Wide)
+	f *= 100
+	newWorld.Fill = int(f)
 }
 
 func (w *World) Seed(fill int) {
@@ -81,18 +101,15 @@ func (w *World) Seed(fill int) {
 
 func (w *World) String() string {
 
-	brownSquare := "\xF0\x9F\x9F\xAB"
-	greenSquare := "\xF0\x9F\x9F\xA9"
-
 	ans := ""
 
 	for i := range w.Cells {
 		for j := range w.Cells[i] {
 
 			if w.Cells[i][j] {
-				ans += greenSquare
+				ans += GreenSquare
 			} else {
-				ans += brownSquare
+				ans += BrownSquare
 			}
 		}
 		ans += "\n"
